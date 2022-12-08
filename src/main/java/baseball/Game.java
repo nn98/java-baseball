@@ -15,6 +15,7 @@ public class Game {
     }
 
     public void run() {
+        System.out.println("Beginning Refactoring");
         System.out.println(Texts.GAME_BEGIN);
         while (true) {
             play();
